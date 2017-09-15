@@ -1,0 +1,52 @@
+{
+  "name": "the-mixtape-api",
+  "version": "0.0.1",
+  "private": false,
+  "description": "The Mixtape API",
+  "main": "index.js",
+  "repository": "git@github.com:TheMixtape/the-mixtape-api.git",
+  "author": "TheMixtape",
+  "engines": {
+    "node": "6.10.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "babel-plugin-syntax-trailing-function-commas": "^6.22.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.2.0",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.74.0",
+    "babel-cli": "^6.24.1",
+    "babel-plugin-syntax-trailing-function-commas": "^6.22.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "big.js": "^3.1.3",
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "express-validator": "^3.2.0",
+    "gulp": "^3.9.1",
+    "helmet": "^3.6.1",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "morgan": "1.8.2",
+    "multisort": "^0.5.3",
+    "node-schedule": "^1.2.3",
+    "redis": "^2.7.1",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "source-map-support": "^0.4.15",
+    "uuid": "^3.0.1",
+    "validator": "^7.0.0",
+    "winston": "^2.3.1"
+  }
+}
